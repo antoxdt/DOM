@@ -79,5 +79,5 @@ nodo.textContent
 
 */
 
-let subtitulo = document.querySelector("#subtitulo"); // ahora directo
+let subtitulo = document.querySelector("#subtitulo"); 
 console.log(subtitulo.innerText);
