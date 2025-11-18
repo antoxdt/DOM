@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #f0f8ff; /* fondo azul claro */
+}
+
+ul {
+    list-style: none;
+}
+
+#Pokemones {
+    max-width: 300px;
+    background-color: #fff8dc; /* amarillo suave tipo Pokémon */
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 2px solid #f5deb3;
+}
+
+#Pokemones h2 {
+    margin-bottom: 0.7rem;
+    color: #ff4500;
+}
+
+#Pokemones ul {
+    margin-bottom: 0.5rem;
+}
+
+#Pokemones li {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.oculto {
+    display: none;
+}
+
+.resalte {
+    color: #CC3700; /* naranja oscuro */
+    font-weight: bold;
+}
